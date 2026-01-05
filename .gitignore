@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+# NOTE: I track notebooks in git for this project (do NOT ignore *.ipynb)
+
+# Local Drive API auth files (never commit)
+notebooks/drive_client_secret.json
+notebooks/drive_token.json
+notebooks/drive_sync_state.json
+
+# Local env files (never commit)
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+data/*
+!data/.gitkeep
+!data/game_states/
+!data/game_states/**
+data/*.pkl
+data/*.npy
+data/*.h5
+
+# Colab / export bundles
+exports/
+*.zip
+
+# Models
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX build artifacts + sources (I only commit the generated PDFs for the final writeups)
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.fdb_latexmk
+docs/*.fls
+docs/*.synctex.gz
+docs/*.tex
+
