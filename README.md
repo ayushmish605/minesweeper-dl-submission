@@ -18,4 +18,9 @@ minesweeper-dl-submission/
 
 ## Where to view docs
 
-- When I’m done, the writeups will be PDF files in `docs/`.
+- The writeups are PDF files in `docs/`:
+  - [Task 1 writeup (PDF)](docs/TASK1_WRITEUP.pdf)
+  - [Task 2 writeup (PDF)](docs/TASK2_WRITEUP.pdf)
+  - [Task 3 writeup (PDF)](docs/TASK3_WRITEUP.pdf)
+
+Note: GitHub doesn’t reliably support true inline PDF embeds inside `README.md`, but clicking the links above opens the PDFs in GitHub’s built-in viewer.
